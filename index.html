@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Luxury Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- START PAGE -->
+  <div class="box" id="start">
+    <h1>WELCOME TO Quiz</h1>
+    <p>Test your knowledge!</p>
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <!-- QUIZ PAGE -->
+  <div class="box hide" id="quiz">
+
+    <!-- TOP INDICATOR BAR -->
+    <div id="indicator"></div>
+
+    <div class="top">
+      <span id="qnum"></span>
+      <span id="time">20s</span>
+    </div>
+
+    <h2 id="question"></h2>
+
+    <div class="options">
+      <button onclick="answer(0)"></button>
+      <button onclick="answer(1)"></button>
+      <button onclick="answer(2)"></button>
+      <button onclick="answer(3)"></button>
+    </div>
+
+  </div>
+
+  <!-- RESULT PAGE -->
+  <div class="box hide" id="result">
+    <h1 id="final-title">🎉 Quiz Completed!</h1>
+    <p id="final-msg">Well done! You finished the quiz.</p>
+    <p id="final-score"></p>
+    <button onclick="location.reload()">Play Again</button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
