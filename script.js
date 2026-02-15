@@ -4,13 +4,13 @@ let score = 0;
 let time = 20;
 let timer;
 
-const correct = [0, 2, 0, 0, 0];
+const correct = [0, 2, 0, 2, 0];
 
 const questions = [
   "Which keyword is block-scoped in JavaScript?",
   "Which one is NOT a JavaScript data type?",
   "What does DOM stand for?",
-  "Which language is used for web development?",
+  "Which JavaScript method removes the last element from an array?",
   "Which CSS property controls the text size?"
 ];
 
@@ -18,7 +18,7 @@ const options = [
   ["let", "var", "const", "static"],
   ["Boolean", "String", "Integer", "Undefined"],
   ["Document Object Model", "Data Object Management", "Digital Ordinance Model", "Desktop Oriented Mode"],
-  ["HTML", "Python", "C++", "Java"],
+  ["shift()", "splice()", "pop()", "slice()"],
   ["font-size", "text-style", "text-size", "font-style"]
 ];
 

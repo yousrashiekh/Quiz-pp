@@ -67,14 +67,6 @@ body {
   transition: 0.3s;
 }
 
-/* #indicator.right {
-  background: linear-gradient(90deg,#9b9685,#65c368);
-}
-
-#indicator.wrong {
-  background: linear-gradient(90deg,#a9892c,#f44336);
-} */
-
 /* TOP INFO */
 .top {
   display: flex;
@@ -112,18 +104,6 @@ h2 {
   color: #000;
 }
 
-/* CORRECT BUTTON */
-.correct {
-  background: #4caf50 !important;
-  color: #000;
-}
-
-.wrong {
-  background: #f44336 !important;
-  /* bright red */
-  color: #080808;
-  /* white text */
-}
 
 /* RESULT PAGE */
 #final-title {
@@ -162,7 +142,7 @@ h2 {
   color: #000;
 }
 
-/* HIDE UTILITY */
+/* HIDE */
 .hide {
   display: none;
 }
